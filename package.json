@@ -2,7 +2,7 @@
   "name": "zhenghe-ar",
   "version": "0.1.0",
   "private": true,
-  "homepage": "ar.uetuluk.com",
+  "homepage": "https://ar.uetuluk.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
