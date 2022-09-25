@@ -4,19 +4,19 @@ import React from 'react';
 // AR.JS libraries are GLOBAL.
 
 
-declare global {
-    namespace JSX {
-        interface IntrinsicElements {
-            'a-scene': any,
-            'a-marker': any,
-            'a-text': any,
-            'a-camera': any,
-            'a-entity': any,
-            'a-nft': any,
-            'a-cone': any;
-        }
-    }
-};
+// declare global {
+//     namespace JSX {
+//         interface IntrinsicElements {
+//             'a-scene': any,
+//             'a-marker': any,
+//             'a-text': any,
+//             'a-camera': any,
+//             'a-entity': any,
+//             'a-nft': any,
+//             'a-cone': any;
+//         }
+//     }
+// };
 
 // declare var AFRAME: any;
 

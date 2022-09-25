@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ThreexComp from './components/ARMarker3X'
+import AR from './components/MindARTS'
 
 function App() {
   return (
@@ -21,7 +21,11 @@ function App() {
         </a>
       </header> 
        <ARScene />  */}
-      <ThreexComp />
+       <header className='header'>A</header>
+       <div className='content'>
+        <AR />
+       </div>
+      <footer className='footer'>A</footer>
     </div>
   );
 }

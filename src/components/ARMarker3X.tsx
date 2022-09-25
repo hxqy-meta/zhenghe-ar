@@ -65,6 +65,7 @@ export default class ThreexComp extends React.Component {
 
 		function initARContext() { // create atToolkitContext
 			arToolkitContext = new ArToolkitContext({
+				debug: true,
 				cameraParametersUrl: ArToolkitContext.baseURL + '../data/camera_para.dat',
 				detectionMode: 'mono'
 			})
@@ -186,7 +187,7 @@ export default class ThreexComp extends React.Component {
     render() {
         return (
         <div 
-            style={{ width: "800px", height: "800px" }}
+            style={{ width: "100%", height: "100%" }}
             ref={mount => { this.mount = mount}}
         />
         )

@@ -8,19 +8,19 @@ import React from 'react';
 import '@ar-js-org/ar.js/aframe/build/aframe-ar-new-location-only';
 
 
-declare global {
-    namespace JSX {
-        interface IntrinsicElements {
-            'a-scene': any,
-            'a-marker': any,
-            'a-text': any,
-            'a-camera': any,
-            'a-entity': any,
-            'a-nft': any,
-            'a-cone': any;
-        }
-    }
-};
+// declare global {
+//     namespace JSX {
+//         interface IntrinsicElements {
+//             'a-scene': any,
+//             'a-marker': any,
+//             'a-text': any,
+//             'a-camera': any,
+//             'a-entity': any,
+//             'a-nft': any,
+//             'a-cone': any;
+//         }
+//     }
+// };
 
 // declare var AFRAME: any;
 
