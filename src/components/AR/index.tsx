@@ -23,7 +23,7 @@ const AR = () => {
     
     return (
         <a-scene 
-            mindar-image="maxTrack: 2; warmupTolerance: 1; filterMinCF:0.000001; filterBeta: 1000; imageTargetSrc: assets/zhenghe/zhenghe.mind;" 
+            mindar-image="maxTrack: 2; warmupTolerance: 1; filterMinCF:0.0001; filterBeta: 0.001; imageTargetSrc: assets/zhenghe/zhenghe.mind;" 
             color-space="sRGB" 
             renderer="colorManagement: true, physicallyCorrectLights" 
             vr-mode-ui="enabled: false" 
@@ -43,11 +43,11 @@ const AR = () => {
             <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
             <a-entity mindar-image-target="targetIndex: 0">
                 <a-plane src="#zhenghe1" position="0 -0.4 0.2" height="1" width="1" rotation="0 0 0" animation="property: position; to: 0 0.1 0.1; dur: 1000; easing: easeInOutQuad; loop: true; dir: alternate"></a-plane> 
-                {/* <a-gltf-model rotation="90 0 0" position="0 0 0" scale="0.05 0.05 0.05" src="#warrior2" animation="property: position; to: 0 0.1 0.1; dur: 1000; easing: easeInOutQuad; loop: true; dir: alternate" /> */}
+                <a-gltf-model rotation="90 0 0" position="0 0 0" scale="0.05 0.05 0.05" src="#warrior2" animation="property: position; to: 0 0.1 0.1; dur: 1000; easing: easeInOutQuad; loop: true; dir: alternate" />
             </a-entity>
             <a-entity mindar-image-target="targetIndex: 1">
                 <a-plane src="#zhenghe2" position="0 -0.4 0" height="1" width="0.667" rotation="0 0 0"></a-plane> 
-                {/* <a-gltf-model rotation="0 0 0" position="0 0 0" scale="10 10 10" src="#horse" animation="property: position; to: 0 0.1 0.1; dur: 1000; easing: easeInOutQuad; loop: true; dir: alternate" /> */}
+                <a-gltf-model rotation="0 0 0" position="0 0 0" scale="10 10 10" src="#horse" animation="property: position; to: 0 0.1 0.1; dur: 1000; easing: easeInOutQuad; loop: true; dir: alternate" />
             </a-entity>
         </a-scene>
     );
