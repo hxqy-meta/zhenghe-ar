@@ -1,5 +1,5 @@
 import './index.css';
-import html2canvas from 'html2canvas';
+// import html2canvas from 'html2canvas';
 
 const ARButton = () => {
 
@@ -23,8 +23,8 @@ const ARButton = () => {
         var v_width = videoElement.offsetWidth;
         var v_height = videoElement.offsetHeight;
 
-        var a_width = document.querySelector('a-scene').components.screenshot.data.width * 0.5;
-        var a_height = document.querySelector('a-scene').components.screenshot.data.height * 0.5;
+        // var a_width = document.querySelector('a-scene').components.screenshot.data.width * 0.5;
+        // var a_height = document.querySelector('a-scene').components.screenshot.data.height * 0.5;
         canvasElement.width = window.outerWidth;
         canvasElement.height = window.outerHeight;
         
