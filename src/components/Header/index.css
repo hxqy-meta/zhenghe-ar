@@ -1,0 +1,19 @@
+.header {
+    background-color: #282c34;
+    height: 60px;
+    width: 100%;
+    /* display: flex; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.header p {
+    margin: 0;
+    padding: 15px;
+}
